@@ -1,0 +1,10 @@
+version: "4.12"
+
+services:
+  web:
+    image: demo-react-docker-i
+    build:
+      context: .
+    ports:
+      - 1337:80
+
